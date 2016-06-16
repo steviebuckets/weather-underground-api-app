@@ -1,0 +1,80 @@
+html {
+	font-family: 'Fredoka One', cursive;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+body{
+	background-image: url("images/beach.jpeg");
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+	color: #008CBA;
+}
+
+h2, p {
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+}
+
+#reset, #go {
+    background-color: #008CBA; /* Blue */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#zip {
+	font-size: 18px;
+	height: 20px;
+	color: #008CBA;
+}
+
+.container{
+	width: 500px;
+  margin: auto;
+  margin-top: 40px;
+  background: rgba(0,0,0,0.1);
+  padding: 15px;
+  border-radius: 20px;
+  display: none;
+}
+
+/* Responsive */
+ @media only screen and (max-width: 700px) {
+    body {
+    	background-size: cover;
+    	background-repeat: no-repeat;
+      height: 640px;
+      width: auto;
+    }
+
+    #reset, #go {
+    	margin-top: .9em;
+    	padding: .7em;
+
+    }
+
+    .conatiner {
+    	display: inline-block;
+    	text-align: center;
+
+    }
+
+    h1 {
+    	font-size: 44px;
+    }
+
+    h2, p {
+    	margin-top: 35px;
+    	display: block;
+    	font-size: 22px;
+    	margin-right: 120px;
+    }

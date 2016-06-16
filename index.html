@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather Finder</title>
+
+	<link rel="stylesheet" href="app.css">
+	<link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+<h1>Weather Finder</h1>
+
+	<form class="wuInput" onsubmit="return false;">
+		<input type="text" id="zip" placeholder="enter a zip code" name="zipInput" size="20" required>
+		<input type="submit" id="go" value="Submit">
+		<input type="submit" id="reset" value="Reset">
+	</form>
+<div class="container">
+<div class="results"></div>
+</div>
+
+</body>
+</html>
