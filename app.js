@@ -14,7 +14,7 @@ $(document).ready(function() {
 
         //grabs the Weather Undeground JSON for a particular zip
         $.ajax({
-            url: "http://api.wunderground.com/api/ddc229a31721c8be/geolookup/conditions/q/" + zip + ".json", //sign up for a FREE api key here: http://www.wunderground.com/weather/api/
+            url: "https://api.wunderground.com/api/ddc229a31721c8be/geolookup/conditions/q/" + zip + ".json", //sign up for a FREE api key here: http://www.wunderground.com/weather/api/
             dataType: "jsonp",
             success: function(parsed_json) {
 
